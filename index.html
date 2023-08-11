@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/code.jquery.com_jquery-3.7.0.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Triangle tracker</title>  
+</head>
+<body>
+  <div class="container w-25 mt-5 border border-dark">
+    <h2>Triangle Tracker</h2>
+
+    <form id="triangle">
+      <div class="side1">
+        <label class="d-block" for="side">Side1</label>
+        <input id="first" type="number" required>
+      </div>
+      
+      <div class="side2">
+        <label class="d-block" for="side">Side2</label>
+        <input id="second" type="number" required>
+      </div>
+
+      <div class="side3">
+        <label class="d-block" for="side">Side3</label>
+        <input id="third" type="number" required>
+      </div>
+      <br>
+      
+      <button id="checkbutton" class="btn btn-success" type="submit">Check Triangle</button>
+    </form>
+
+    <p id="result" class="mt-5"></p>
+  </div>
+
+  
+</body>
+</html>    
